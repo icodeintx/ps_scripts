@@ -1,0 +1,17 @@
+[
+  {
+    "Command": "path",
+    "Title": "Path",
+    "Directory": "c:\\src\\path"
+  },
+  {
+    "Command": "src",
+    "Title": "Source Code",
+    "Directory": "C:\\src"
+  },
+  {
+    "Command": "code1",
+    "Title": "Code Project 1",
+    "Directory": "C:\\src\\CodeProject1"
+  }
+]
