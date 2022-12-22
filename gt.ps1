@@ -3,8 +3,9 @@
 # $PSScriptRoot <- script root
 $ScriptPath = Split-Path -Parent -Path $($MyInvocation.MyCommand.Definition)
 
+
 $jsonFile = $($ScriptPath + "\gt.json")
-Write-Output $jsonFile
+Write-Host $jsonFile  -ForegroundColor blue
 
 #read the json data
 $json = (Get-Content $jsonFile -Raw) | ConvertFrom-Json | Sort-Object title
