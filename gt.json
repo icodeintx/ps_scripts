@@ -1,0 +1,112 @@
+[
+  {
+    "Command": "personal",
+    "Title": "Personal",
+    "Directory": "c:\\onedrive\\personal"
+  },
+  {
+    "Command": "amaracode",
+    "Title": "AmaraCode",
+    "Directory": "c:\\onedrive\\personal\\amaracode"
+  },
+  {
+    "Command": "apps",
+    "Title": "Apps",
+    "Directory": "c:\\onedrive\\personal\\amaracode\\production\\apps"
+  },
+  {
+    "Command": "path",
+    "Title": "Path",
+    "Directory": "c:\\onedrive\\personal\\path"
+  },
+  {
+    "Command": "src",
+    "Title": "SRC",
+    "Directory": "c:\\src"
+  },
+  {
+    "Command": "acweb",
+    "Title": "AmaraCode Website",
+    "Directory": "C:\\src\\AmaraCode.com"
+  },
+  {
+    "Command": "cosmos",
+    "Title": "Cosmos Event Storage",
+    "Directory": "C:\\src\\CosmosEventStorage"
+  },
+  {
+    "Command": "csproj",
+    "Title": "CSPROJ Version Control",
+    "Directory": "C:\\src\\CSPROJ Version Contol"
+  },
+  {
+    "Command": "ol",
+    "Title": "OandaLibrary",
+    "Directory": "C:\\src\\OandaV20.3\\OkonkwoOandaV20\\OkonkwoOandaV20"
+  },
+  {
+    "Command": "pay",
+    "Title": "Payment Journal",
+    "Directory": "C:\\src\\PaymentJournal"
+  },
+  {
+    "Command": "rm",
+    "Title": "Rain Maker",
+    "Directory": "c:\\src\\RainMaker"
+  },
+  {
+    "Command": "broker",
+    "Title": "Rain Maker - Broker",
+    "Directory": "c:\\src\\RainMaker\\src\\Broker"
+  },
+  {
+    "Command": "bapi",
+    "Title": "BrokerApi",
+    "Directory": "c:\\src\\RainMaker\\src\\Broker\\BrokerApi"
+  },
+  {
+    "Command": "ps",
+    "Title": "Price Streamer",
+    "Directory": "C:\\src\\RainMaker\\src\\Broker\\OandaPriceStreamer"
+  },
+  {
+    "Command": "core",
+    "Title": "Rain Maker - Core",
+    "Directory": "c:\\src\\RainMaker\\src\\Core"
+  },
+  {
+    "Command": "data",
+    "Title": "Rain Maker - Data",
+    "Directory": "c:\\src\\RainMaker\\src\\Data"
+  },
+  {
+    "Command": "dapi",
+    "Title": "DataApi",
+    "Directory": "c:\\src\\RainMaker\\src\\Data\\DataApi"
+  },
+  {
+    "Command": "trader",
+    "Title": "Rain Maker - Trader",
+    "Directory": "c:\\src\\RainMaker\\src\\Trader"
+  },
+  {
+    "Command": "wr",
+    "Title": "Trader WaveRider",
+    "Directory": "C:\\src\\RainMaker\\src\\Trader\\TraderWR"
+  },
+  {
+    "Command": "Web",
+    "Title": "Rain Maker - Web",
+    "Directory": "c:\\src\\RainMaker\\src\\Web"
+  },
+  {
+    "Command": "ui",
+    "Title": "RainMaker Website",
+    "Directory": "c:\\src\\RainMaker\\src\\Web\\Blazor"
+  },
+  {
+    "Command": "xml",
+    "Title": "XML Nodes List",
+    "Directory": "C:\\src\\xmlnodes"
+  }
+]
