@@ -108,5 +108,10 @@
     "Command": "xml",
     "Title": "XML Nodes List",
     "Directory": "C:\\src\\xmlnodes"
+  },
+  {
+    "Command": "scripts",
+    "Title": "PS Scripts",
+    "Directory": "C:\\src\\ps_scripts"
   }
 ]
