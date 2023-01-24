@@ -1,30 +1,235 @@
 [
   {
-    "Command": "personal",
-    "Title": "Personal",
-    "Directory": "c:\\onedrive\\personal"
+    "Command": "src",
+    "Title": "Source Code",
+    "Directory": "C:\\src"
   },
   {
-    "Command": "amaracode",
-    "Title": "AmaraCode",
-    "Directory": "c:\\onedrive\\personal\\amaracode"
+    "Command": "azure",
+    "Title": "Azure Root",
+    "Directory": "C:\\src\\Azure"
   },
   {
-    "Command": "apps",
-    "Title": "Apps",
-    "Directory": "c:\\onedrive\\personal\\amaracode\\production\\apps"
+    "Command": "ahe",
+    "Title": "Azure Heloc Engine",
+    "Directory": "C:\\src\\Azure\\LD.Enterprise.HelocEngine"
+  },
+  {
+    "Command": "ahei",
+    "Title": "Azure Heloc Engine Infrastructure",
+    "Directory": "C:\\src\\Azure\\LD.Enterprise.HelocEngine.Infrastructure"
+  },
+  {
+    "Command": "addri",
+    "Title": "Azure Decisions DataReceiverIntegration",
+    "Directory": "C:\\src\\Azure\\LD.Enterprise.MelloDecisions.DecisionsDataReceiverIntegration"
+  },
+  {
+    "Command": "add",
+    "Title": "Azure Decisions Domain",
+    "Directory": "c:\\src\\azure\\LD.Enterprise.MelloDecisions.DecisionsDomain"
+  },
+  {
+    "Command": "adri",
+    "Title": "Azure DecisionsRulesIntegration",
+    "Directory": "C:\\src\\Azure\\LD.Enterprise.MelloDecisions.DecisionsRulesIntegration"
+  },
+  {
+    "Command": "adi",
+    "Title": "Azure Decisions Infrastructure",
+    "Directory": "C:\\src\\Azure\\LD.Enterprise.MelloDecisions.Infrastructure"
+  },
+  {
+    "Command": "ascd",
+    "Title": "Azure Decisions SausConditonsDomain",
+    "Directory": "C:\\src\\Azure\\LD.Enterprise.MelloDecisions.SausConditionsDomain"
+  },
+  {
+    "Command": "asci",
+    "Title": "Azure Decisions SausConditionsIntegration",
+    "Directory": "C:\\src\\Azure\\LD.Enterprise.MelloDecisions.SausConditionsIntegration"
+  },
+  {
+    "Command": "ascw",
+    "Title": "Azure Decisions SausConditionsWeb",
+    "Directory": "c:\\src\\azure\\LD.Enterprise.MelloDecisions.SausConditionsWeb"
+  },
+  {
+    "Command": "avdi",
+    "Title": "Vendor Data Integration",
+    "Directory": "c:\\src\\azure\\LD.Enterprise.MelloDecisions.VendorDataIntegration"
+  },
+  {
+    "Command": "adqa",
+    "Title": "Azure Decisions QA",
+    "Directory": "c:\\src\\azure\\LD.Enterprise.MelloDecisionsQA"
+  },
+  {
+    "Command": "dmii",
+    "Title": "Document Mangement IDS Integration",
+    "Directory": "C:\\src\\DocumentManagement\\DocMgmtIDSIntegration"
+  },
+  {
+    "Command": "dm",
+    "Title": "Document Mangement",
+    "Directory": "C:\\src\\DocumentManagement\\DocumentManagement"
+  },
+  {
+    "Command": "emp",
+    "Title": "Empower",
+    "Directory": "C:\\src\\Empower\\trunk"
+  },
+  {
+    "Command": "edb",
+    "Title": "Empower Database",
+    "Directory": "C:\\src\\EmpowerDatabase\\trunk"
+  },
+  {
+    "Command": "eldc",
+    "Title": "Empower LD Core",
+    "Directory": "C:\\src\\EmpowerLDCore"
+  },
+  {
+    "Command": "ews",
+    "Title": "Empower Windows Service",
+    "Directory": "C:\\src\\EmpowerWindowsService\\trunk"
+  },
+  {
+    "Command": "eps",
+    "Title": "EPS",
+    "Directory": "C:\\src\\EPS\\trunk"
+  },
+  {
+    "Command": "idsc",
+    "Title": "IDS Common",
+    "Directory": "C:\\src\\IDS\\IDSCommon"
+  },
+  {
+    "Command": "idsf",
+    "Title": "IDS Function",
+    "Directory": "C:\\src\\IDS\\IDSFunction"
+  },
+  {
+    "Command": "idsp",
+    "Title": "IDS Prototype",
+    "Directory": "C:\\src\\IDS\\IDSPrototype"
+  },
+  {
+    "Command": "idss",
+    "Title": "IDS Service Domain",
+    "Directory": "C:\\src\\IDS\\IDSServiceDomain"
+  },
+  {
+    "Command": "ctp",
+    "Title": "CandorThirdParty",
+    "Directory": "C:\\src\\Mello\\CandorThirdParty"
+  },
+  {
+    "Command": "dci",
+    "Title": "Decisions Calculation Integration",
+    "Directory": "C:\\src\\Mello\\Decisions\\DecisionsCalculationIntegration"
+  },
+  {
+    "Command": "ddr",
+    "Title": "Decisions Data Receiver Integration",
+    "Directory": "C:\\src\\Mello\\Decisions\\DecisionsDataReceiverIntegration"
+  },
+  {
+    "Command": "dd",
+    "Title": "Decisions Domain",
+    "Directory": "C:\\src\\Mello\\Decisions\\DecisionsDomain"
+  },
+  {
+    "Command": "dri",
+    "Title": "Decisions Rules Integration",
+    "Directory": "C:\\src\\Mello\\Decisions\\DecisionsRulesIntegration"
+  },
+  {
+    "Command": "dw",
+    "Title": "Decisions Web UI",
+    "Directory": "C:\\src\\Mello\\Decisions\\DecisionsWebUI"
+  },
+  {
+    "Command": "los",
+    "Title": "MelloLOS Code Root",
+    "Directory": "C:\\src\\Mello\\melloLOS"
+  },
+  {
+    "Command": "mbfi",
+    "Title": "MelloLOS melloBFFIntegration",
+    "Directory": "C:\\src\\Mello\\melloLOS\\melloBFFIntegration"
+  },
+  {
+    "Command": "mccdn",
+    "Title": "MelloLOS melloConditionsCDN",
+    "Directory": "C:\\src\\Mello\\melloLOS\\melloConditionsCDN"
+  },
+  {
+    "Command": "mcd",
+    "Title": "MelloLOS melloConditionsDomain",
+    "Directory": "C:\\src\\Mello\\melloLOS\\melloConditionsDomain"
+  },
+  {
+    "Command": "mdcdn",
+    "Title": "MelloLOS melloDocumentsCDN",
+    "Directory": "C:\\src\\Mello\\melloLOS\\melloDocumentsCDN"
+  },
+  {
+    "Command": "mdd",
+    "Title": "MelloLOS melloDocumentsDomain",
+    "Directory": "C:\\src\\Mello\\melloLOS\\melloDocumentsDomain"
+  },
+  {
+    "Command": "mncdn",
+    "Title": "MelloLOS melloNotepadCDN",
+    "Directory": "C:\\src\\Mello\\melloLOS\\melloNotepadCDN"
+  },
+  {
+    "Command": "mnd",
+    "Title": "MelloLOS melloNotepadDomain",
+    "Directory": "C:\\src\\Mello\\melloLOS\\melloNotepadDomain"
+  },
+  {
+    "Command": "scd",
+    "Title": "SAUS SAUSConditionsDomain",
+    "Directory": "C:\\src\\Mello\\SAUS\\SAUSConditionsDomain"
+  },
+  {
+    "Command": "sci",
+    "Title": "SAUS SAUSConditionsIntegration",
+    "Directory": "C:\\src\\Mello\\SAUS\\SAUSConditionsIntegration"
+  },
+  {
+    "Command": "scp",
+    "Title": "SAUS SAUSConditionsPublic",
+    "Directory": "C:\\src\\Mello\\SAUS\\SAUSConditionsPublic"
+  },
+  {
+    "Command": "scw",
+    "Title": "SAUS SAUSConditionsWeb",
+    "Directory": "C:\\src\\Mello\\SAUS\\SAUSConditionsWeb"
+  },
+  {
+    "Command": "vdi",
+    "Title": "VendorDataIntegration",
+    "Directory": "C:\\src\\Mello\\VendorDataIntegration"
   },
   {
     "Command": "path",
     "Title": "Path",
-    "Directory": "c:\\onedrive\\personal\\path"
+    "Directory": "c:\\src\\path"
   },
   {
-    "Command": "src",
-    "Title": "SRC",
-    "Directory": "c:\\src"
+    "Command": "temp",
+    "Title": "temp",
+    "Directory": "c:\\temp"
   },
   {
+<<<<<<< HEAD
+    "Command": "adctp",
+    "Title": "Azure Decisions CandorThirdParty",
+    "Directory": "c:\\src\\azure\\LD.Enterprise.MelloDecisions.CandorThirdParty"
+=======
     "Command": "acweb",
     "Title": "AmaraCode Website",
     "Directory": "C:\\src\\AmaraCode.com"
@@ -108,5 +313,11 @@
     "Command": "xml",
     "Title": "XML Nodes List",
     "Directory": "C:\\src\\xmlnodes"
+  },
+  {
+    "Command": "scripts",
+    "Title": "PS Scripts",
+    "Directory": "C:\\src\\ps_scripts"
+>>>>>>> 49b7fea3a8d0aa99d70121f0c6205d07e3e2b1b2
   }
 ]
