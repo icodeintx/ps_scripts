@@ -50,6 +50,11 @@
     "Directory": "C:\\src\\PaymentJournal"
   },
   {
+    "Command": "scripts",
+    "Title": "PS Scripts",
+    "Directory": "C:\\src\\ps_scripts"
+  },
+  {
     "Command": "rm",
     "Title": "Rain Maker",
     "Directory": "c:\\src\\RainMaker"
@@ -110,8 +115,8 @@
     "Directory": "C:\\src\\xmlnodes"
   },
   {
-    "Command": "scripts",
-    "Title": "PS Scripts",
-    "Directory": "C:\\src\\ps_scripts"
+    "Command": "temp",
+    "Title": "Temp",
+    "Directory": "c:\\temp"
   }
 ]
