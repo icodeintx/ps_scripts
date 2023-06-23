@@ -2,121 +2,126 @@
   {
     "Command": "personal",
     "Title": "Personal",
-    "Directory": "c:\\onedrive\\personal"
+    "Directory": "E:\\onedrive\\personal"
   },
   {
     "Command": "amaracode",
     "Title": "AmaraCode",
-    "Directory": "c:\\onedrive\\personal\\amaracode"
+    "Directory": "E:\\onedrive\\personal\\amaracode"
   },
   {
     "Command": "apps",
     "Title": "Apps",
-    "Directory": "c:\\onedrive\\personal\\amaracode\\production\\apps"
+    "Directory": "E:\\onedrive\\personal\\amaracode\\production\\apps"
   },
   {
     "Command": "path",
     "Title": "Path",
-    "Directory": "c:\\onedrive\\personal\\path"
+    "Directory": "E:\\onedrive\\personal\\path"
   },
   {
     "Command": "src",
     "Title": "SRC",
-    "Directory": "c:\\src"
+    "Directory": "E:\\src"
   },
   {
     "Command": "acweb",
     "Title": "AmaraCode Website",
-    "Directory": "C:\\src\\AmaraCode.com"
+    "Directory": "E:\\src\\AmaraCode.com"
   },
   {
     "Command": "cosmos",
     "Title": "Cosmos Event Storage",
-    "Directory": "C:\\src\\CosmosEventStorage"
+    "Directory": "E:\\src\\CosmosEventStorage"
   },
   {
     "Command": "csproj",
     "Title": "CSPROJ Version Control",
-    "Directory": "C:\\src\\CSPROJ Version Contol"
+    "Directory": "E:\\src\\CSPROJ Version Contol"
   },
   {
     "Command": "ol",
     "Title": "OandaLibrary",
-    "Directory": "C:\\src\\OandaV20.3\\OkonkwoOandaV20\\OkonkwoOandaV20"
+    "Directory": "E:\\src\\OandaV20.3\\OkonkwoOandaV20\\OkonkwoOandaV20"
   },
   {
     "Command": "pay",
     "Title": "Payment Journal",
-    "Directory": "C:\\src\\PaymentJournal"
+    "Directory": "E:\\src\\PaymentJournal"
   },
   {
     "Command": "scripts",
     "Title": "PS Scripts",
-    "Directory": "C:\\src\\ps_scripts"
+    "Directory": "E:\\src\\ps_scripts"
   },
   {
     "Command": "rm",
     "Title": "Rain Maker",
-    "Directory": "c:\\src\\RainMaker"
+    "Directory": "E:\\src\\RainMaker"
   },
   {
     "Command": "broker",
     "Title": "Rain Maker - Broker",
-    "Directory": "c:\\src\\RainMaker\\src\\Broker"
+    "Directory": "E:\\src\\RainMaker\\src\\Broker"
   },
   {
     "Command": "bapi",
     "Title": "BrokerApi",
-    "Directory": "c:\\src\\RainMaker\\src\\Broker\\BrokerApi"
+    "Directory": "E:\\src\\RainMaker\\src\\Broker\\BrokerApi"
   },
   {
     "Command": "ps",
     "Title": "Price Streamer",
-    "Directory": "C:\\src\\RainMaker\\src\\Broker\\OandaPriceStreamer"
+    "Directory": "E:\\src\\RainMaker\\src\\Broker\\OandaPriceStreamer"
   },
   {
     "Command": "core",
     "Title": "Rain Maker - Core",
-    "Directory": "c:\\src\\RainMaker\\src\\Core"
+    "Directory": "E:\\src\\RainMaker\\src\\Core"
   },
   {
     "Command": "data",
     "Title": "Rain Maker - Data",
-    "Directory": "c:\\src\\RainMaker\\src\\Data"
+    "Directory": "E:\\src\\RainMaker\\src\\Data"
   },
   {
     "Command": "dapi",
     "Title": "DataApi",
-    "Directory": "c:\\src\\RainMaker\\src\\Data\\DataApi"
+    "Directory": "E:\\src\\RainMaker\\src\\Data\\DataApi"
   },
   {
     "Command": "trader",
     "Title": "Rain Maker - Trader",
-    "Directory": "c:\\src\\RainMaker\\src\\Trader"
+    "Directory": "E:\\src\\RainMaker\\src\\Trader"
   },
   {
     "Command": "wr",
     "Title": "Trader WaveRider",
-    "Directory": "C:\\src\\RainMaker\\src\\Trader\\TraderWR"
+    "Directory": "E:\\src\\RainMaker\\src\\Trader\\TraderWR"
   },
   {
     "Command": "Web",
     "Title": "Rain Maker - Web",
-    "Directory": "c:\\src\\RainMaker\\src\\Web"
+    "Directory": "E:\\src\\RainMaker\\src\\Web"
   },
   {
     "Command": "ui",
     "Title": "RainMaker Website",
-    "Directory": "c:\\src\\RainMaker\\src\\Web\\Blazor"
+    "Directory": "E:\\src\\RainMaker\\src\\Web\\Blazor"
   },
   {
     "Command": "xml",
     "Title": "XML Nodes List",
-    "Directory": "C:\\src\\xmlnodes"
+    "Directory": "E:\\src\\xmlnodes"
   },
   {
     "Command": "temp",
     "Title": "Temp",
-    "Directory": "c:\\temp"
+    "Directory": "C:\\temp"
+  },
+  {
+    "Command": "pj",
+    "Title": "Payment Journal MAUI",
+    "Directory": "E:\\src\\PaymentJournalMaui"
   }
 ]
