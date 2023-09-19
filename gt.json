@@ -1,5 +1,10 @@
 [
   {
+    "Command": "temp",
+    "Title": "Temp",
+    "Directory": "C:\\temp"
+  },
+  {
     "Command": "personal",
     "Title": "Personal",
     "Directory": "E:\\onedrive\\personal"
@@ -62,52 +67,57 @@
   {
     "Command": "broker",
     "Title": "Rain Maker - Broker",
-    "Directory": "E:\\src\\RainMaker\\src\\Broker"
+    "Directory": "E:\\src\\RainMaker.Broker"
   },
   {
     "Command": "bapi",
     "Title": "BrokerApi",
-    "Directory": "E:\\src\\RainMaker\\src\\Broker\\BrokerApi"
+    "Directory": "E:\\src\\RainMaker.Broker\\BrokerApi"
   },
   {
     "Command": "ps",
     "Title": "Price Streamer",
-    "Directory": "E:\\src\\RainMaker\\src\\Broker\\OandaPriceStreamer"
+    "Directory": "E:\\src\\RainMaker.Broker\\OandaPriceStreamer"
   },
   {
     "Command": "core",
     "Title": "Rain Maker - Core",
-    "Directory": "E:\\src\\RainMaker\\src\\Core"
+    "Directory": "E:\\src\\RainMaker.Core"
   },
   {
     "Command": "data",
     "Title": "Rain Maker - Data",
-    "Directory": "E:\\src\\RainMaker\\src\\Data"
+    "Directory": "E:\\src\\RainMaker.Data"
   },
   {
     "Command": "dapi",
     "Title": "DataApi",
-    "Directory": "E:\\src\\RainMaker\\src\\Data\\DataApi"
+    "Directory": "E:\\src\\RainMaker.Data\\DataApi"
   },
   {
     "Command": "trader",
     "Title": "Rain Maker - Trader",
-    "Directory": "E:\\src\\RainMaker\\src\\Trader"
+    "Directory": "E:\\src\\RainMaker.Trader"
   },
   {
     "Command": "wr",
     "Title": "Trader WaveRider",
-    "Directory": "E:\\src\\RainMaker\\src\\Trader\\TraderWR"
+    "Directory": "E:\\src\\RainMaker.Trader\\TraderWR"
+  },
+  {
+    "Command": "tb",
+    "Title": "RainMaker.TraderBase",
+    "Directory": "E:\\src\\RainMaker.TraderBase"
   },
   {
     "Command": "Web",
     "Title": "Rain Maker - Web",
-    "Directory": "E:\\src\\RainMaker\\src\\Web"
+    "Directory": "E:\\src\\RainMaker.Web\\"
   },
   {
     "Command": "ui",
     "Title": "RainMaker Website",
-    "Directory": "E:\\src\\RainMaker\\src\\Web\\Blazor"
+    "Directory": "E:\\src\\RainMaker.Web\\Blazor"
   },
   {
     "Command": "xml",
@@ -115,13 +125,8 @@
     "Directory": "E:\\src\\xmlnodes"
   },
   {
-    "Command": "temp",
-    "Title": "Temp",
-    "Directory": "C:\\temp"
-  },
-  {
-    "Command": "pj",
-    "Title": "Payment Journal MAUI",
-    "Directory": "E:\\src\\PaymentJournalMaui"
+    "Command": "strategy",
+    "Title": "RainMaker.Strategy",
+    "Directory": "E:\\src\\RainMaker.Strategy"
   }
 ]
