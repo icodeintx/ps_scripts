@@ -65,59 +65,69 @@
     "Directory": "E:\\src\\RainMaker"
   },
   {
+   "Command": "rmi",
+   "Title": "Rain Maker Info",
+   "Directory": "E:\\src\\RainMaker\\RainMaker.Info"
+ },
+ {
+   "Command": "rmwiki",
+   "Title": "Rain Maker Wiki",
+   "Directory": "E:\\src\\RainMaker\\Rainmaker.Wiki"
+ },
+  {
     "Command": "broker",
     "Title": "Rain Maker - Broker",
-    "Directory": "E:\\src\\RainMaker.Broker"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Broker"
   },
   {
     "Command": "bapi",
     "Title": "BrokerApi",
-    "Directory": "E:\\src\\RainMaker.Broker\\BrokerApi"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Broker\\BrokerApi"
   },
   {
     "Command": "ps",
     "Title": "Price Streamer",
-    "Directory": "E:\\src\\RainMaker.Broker\\OandaPriceStreamer"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Broker\\OandaPriceStreamer"
   },
   {
     "Command": "core",
     "Title": "Rain Maker - Core",
-    "Directory": "E:\\src\\RainMaker.Core"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Core"
   },
   {
     "Command": "data",
     "Title": "Rain Maker - Data",
-    "Directory": "E:\\src\\RainMaker.Data"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Data"
   },
   {
     "Command": "dapi",
     "Title": "DataApi",
-    "Directory": "E:\\src\\RainMaker.Data\\DataApi"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Data\\DataApi"
   },
   {
     "Command": "trader",
     "Title": "Rain Maker - Trader",
-    "Directory": "E:\\src\\RainMaker.Trader"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Trader"
   },
   {
     "Command": "wr",
     "Title": "Trader WaveRider",
-    "Directory": "E:\\src\\RainMaker.Trader\\TraderWR"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Trader\\TraderWR"
   },
   {
     "Command": "tb",
     "Title": "RainMaker.TraderBase",
-    "Directory": "E:\\src\\RainMaker.TraderBase"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.TraderBase"
   },
   {
     "Command": "Web",
     "Title": "Rain Maker - Web",
-    "Directory": "E:\\src\\RainMaker.Web\\"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Web\\"
   },
   {
     "Command": "ui",
     "Title": "RainMaker Website",
-    "Directory": "E:\\src\\RainMaker.Web\\Blazor"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Web\\Blazor"
   },
   {
     "Command": "xml",
@@ -127,6 +137,6 @@
   {
     "Command": "strategy",
     "Title": "RainMaker.Strategy",
-    "Directory": "E:\\src\\RainMaker.Strategy"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Strategy"
   }
 ]
