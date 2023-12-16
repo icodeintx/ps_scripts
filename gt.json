@@ -65,16 +65,6 @@
     "Directory": "E:\\src\\RainMaker"
   },
   {
-   "Command": "rmi",
-   "Title": "Rain Maker Info",
-   "Directory": "E:\\src\\RainMaker\\RainMaker.Info"
- },
- {
-   "Command": "rmwiki",
-   "Title": "Rain Maker Wiki",
-   "Directory": "E:\\src\\RainMaker\\Rainmaker.Wiki"
- },
-  {
     "Command": "broker",
     "Title": "Rain Maker - Broker",
     "Directory": "E:\\src\\Rainmaker\\RainMaker.Broker"
@@ -105,6 +95,16 @@
     "Directory": "E:\\src\\Rainmaker\\RainMaker.Data\\DataApi"
   },
   {
+    "Command": "rmi",
+    "Title": "Rain Maker Info",
+    "Directory": "E:\\src\\RainMaker\\RainMaker.Info"
+  },
+  {
+    "Command": "strategy",
+    "Title": "RainMaker.Strategy",
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Strategy"
+  },
+  {
     "Command": "trader",
     "Title": "Rain Maker - Trader",
     "Directory": "E:\\src\\Rainmaker\\RainMaker.Trader"
@@ -122,7 +122,7 @@
   {
     "Command": "Web",
     "Title": "Rain Maker - Web",
-    "Directory": "E:\\src\\Rainmaker\\RainMaker.Web\\"
+    "Directory": "E:\\src\\Rainmaker\\RainMaker.Web"
   },
   {
     "Command": "ui",
@@ -130,13 +130,18 @@
     "Directory": "E:\\src\\Rainmaker\\RainMaker.Web\\Blazor"
   },
   {
+    "Command": "rmwiki",
+    "Title": "Rain Maker Wiki",
+    "Directory": "E:\\src\\RainMaker\\Rainmaker.Wiki"
+  },
+  {
     "Command": "xml",
     "Title": "XML Nodes List",
     "Directory": "E:\\src\\xmlnodes"
   },
   {
-    "Command": "strategy",
-    "Title": "RainMaker.Strategy",
-    "Directory": "E:\\src\\Rainmaker\\RainMaker.Strategy"
+    "Command": "tcpoa",
+    "Title": "Tri County POA",
+    "Directory": "e:\\src\\tcpoa"
   }
 ]
