@@ -20,4 +20,7 @@ if($SearchString -eq "--help")
     Return
 }
 
-Get-ChildItem -Path .\ -Filter $FileFilter -Recurse -File | Select-String $SearchString -List | Select-Object Path, LineNumber, Line
+#Get-ChildItem -Path .\ -Filter $FileFilter -Recurse -File | Select-String $SearchString -List | Select-Object Path, LineNumber, Line
+
+
+Get-Childitem -Path .\ -Filter $FileFilter -Recurse -File | Select-String -Pattern $SearchString | Select Path,LineNumber,Line
