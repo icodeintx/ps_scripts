@@ -9,7 +9,6 @@ $newTag = ""
 if(-not $latestTag -or $latestTag -eq "")
 {
     Write-Host "No Prior Tag Found"
-    $newRevision = 1
 }
 else 
 {
@@ -30,8 +29,8 @@ else
     # compare latest tag parts to current year.month.day
     if($year -eq $tag_year -and $month -eq $tag_month -and $day -eq $tag_day)
     {
-        $tag_revision = $tag_revision + 1
-        $newTag = "$tag_year.$tag_month.$tag_day.$newRevision"
+        $tag_revision = [int]$tag_revision + 1
+        $newTag = "$tag_year.$tag_month.$tag_day.$tag_revision"
     }
     else 
     {
