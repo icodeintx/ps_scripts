@@ -95,7 +95,7 @@ switch -Exact ($args[0])
     }
     'Remove'
     {
-        $Command = $(Write-Host "Enter command name to update" -ForegroundColor red -NoNewLine) + $(Write-Host " (cancel to exit) " -ForegroundColor yellow -NoNewLine; Read-Host) 
+        $Command = $(Write-Host "Enter command name to remove" -ForegroundColor red -NoNewLine) + $(Write-Host " (cancel to exit) " -ForegroundColor yellow -NoNewLine; Read-Host) 
         $newjson = $json | Where-Object Command -ne $Command
         # Save the json file
         $newjson | ConvertTo-Json | Set-Content $jsonfile
