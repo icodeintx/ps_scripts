@@ -1,0 +1,157 @@
+[
+  {
+    "Command": "temp",
+    "Title": "Temp",
+    "Directory": "C:\\temp"
+  },
+  {
+    "Command": "personal",
+    "Title": "Personal",
+    "Directory": "C:\\onedrive\\personal"
+  },
+  {
+    "Command": "amaracode",
+    "Title": "AmaraCode",
+    "Directory": "C:\\onedrive\\personal\\amaracode"
+  },
+  {
+    "Command": "apps",
+    "Title": "Apps",
+    "Directory": "C:\\onedrive\\personal\\amaracode\\production\\apps"
+  },
+  {
+    "Command": "path",
+    "Title": "Path",
+    "Directory": "C:\\onedrive\\src\\ps_scripts"
+  },
+  {
+    "Command": "src",
+    "Title": "SRC",
+    "Directory": "c:\\OneDrive\\src"
+  },
+  {
+    "Command": "acweb",
+    "Title": "AmaraCode Website",
+    "Directory": "c:\\OneDrive\\src\\AmaraCode.com"
+  },
+  {
+    "Command": "cosmos",
+    "Title": "Cosmos Event Storage",
+    "Directory": "c:\\OneDrive\\src\\CosmosEventStorage"
+  },
+  {
+    "Command": "csproj",
+    "Title": "CSPROJ Version Control",
+    "Directory": "c:\\OneDrive\\src\\CSPROJ Version Contol"
+  },
+  {
+    "Command": "ol",
+    "Title": "OandaLibrary",
+    "Directory": "c:\\OneDrive\\src\\OandaV20.3\\OkonkwoOandaV20\\OkonkwoOandaV20"
+  },
+  {
+    "Command": "pay",
+    "Title": "Payment Journal",
+    "Directory": "c:\\OneDrive\\src\\PaymentJournal"
+  },
+  {
+    "Command": "scripts",
+    "Title": "PS Scripts",
+    "Directory": "c:\\OneDrive\\src\\ps_scripts"
+  },
+  {
+    "Command": "rm",
+    "Title": "Rain Maker",
+    "Directory": "c:\\OneDrive\\src\\RainMaker"
+  },
+  {
+    "Command": "broker",
+    "Title": "Rain Maker - Broker",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Broker"
+  },
+  {
+    "Command": "bapi",
+    "Title": "BrokerApi",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Broker\\BrokerApi"
+  },
+  {
+    "Command": "ps",
+    "Title": "Price Streamer",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Broker\\OandaPriceStreamer"
+  },
+  {
+    "Command": "core",
+    "Title": "Rain Maker - Core",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Core"
+  },
+  {
+    "Command": "data",
+    "Title": "Rain Maker - Data",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Data"
+  },
+  {
+    "Command": "dapi",
+    "Title": "DataApi",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Data\\DataApi"
+  },
+  {
+    "Command": "rmi",
+    "Title": "Rain Maker Info",
+    "Directory": "c:\\OneDrive\\src\\RainMaker\\RainMaker.Info"
+  },
+  {
+    "Command": "strategy",
+    "Title": "RainMaker.Strategy",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Strategy"
+  },
+  {
+    "Command": "trader",
+    "Title": "Rain Maker - Trader",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Trader"
+  },
+  {
+    "Command": "wr",
+    "Title": "Trader WaveRider",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Trader\\TraderWR"
+  },
+  {
+    "Command": "tb",
+    "Title": "RainMaker.TraderBase",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.TraderBase"
+  },
+  {
+    "Command": "Web",
+    "Title": "Rain Maker - Web",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Web"
+  },
+  {
+    "Command": "ui",
+    "Title": "RainMaker Website",
+    "Directory": "c:\\OneDrive\\src\\Rainmaker\\RainMaker.Web\\Blazor"
+  },
+  {
+    "Command": "rmwiki",
+    "Title": "Rain Maker Wiki",
+    "Directory": "c:\\OneDrive\\src\\RainMaker\\Rainmaker.Wiki"
+  },
+  {
+    "Command": "tcpoa",
+    "Title": "Tri County POA",
+    "Directory": "c:\\OneDrive\\src\\tcpoa"
+  },
+  {
+    "Command": "poa",
+    "Title": "Tri-County POA",
+    "Directory": "c:\\OneDrive\\src\\tcpoa"
+  },
+  {
+    "Command": "xml",
+    "Title": "XML Nodes List",
+    "Directory": "c:\\OneDrive\\src\\xmlnodes"
+  },
+  {
+    "Command": "info",
+    "Title": "RainMaker Info",
+    "Directory": "c:\\OneDrive\\src\\RainMaker\\RainMaker.Info"
+  }
+]
