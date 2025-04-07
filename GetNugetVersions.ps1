@@ -1,6 +1,18 @@
 param(
-    [string]$RootDirectory = (Get-Location).Path
+    [string]$RootDirectory = (Get-Location).Path,
+    [string]$FilterProjectName = ""
 )
+
+if ($PSBoundParameters.Count -eq 0) {
+    Write-Host "Usage:"
+    Write-Host "  .\YourScript.ps1 [-RootDirectory <path>] [-FilterProjectName <name>]"
+    Write-Host ""
+    Write-Host "Description:"
+    Write-Host "  Scans all .csproj files under the specified directory and lists NuGet packages."
+    Write-Host "  You can optionally filter by project name."
+    exit
+}
+
 
 # Array to hold all applications.
 $Applications = @()
@@ -14,18 +26,23 @@ foreach ($csproj in $csprojFiles) {
         [xml]$doc = Get-Content $csproj.FullName -Raw
 
         # Get the project name (file name without extension).
-        $projectName = [System.IO.Path]::GetFileNameWithoutExtension($csproj.FullName)
-        
+        $projName = [System.IO.Path]::GetFileNameWithoutExtension($csproj.FullName)
+
+        # If a project name filter is provided, skip if it doesn't match.
+        if ($FilterProjectName -and $projName -notlike "*$FilterProjectName*") {
+            continue
+        }
+
         # Create a custom object to hold this app's info.
         $ApplicationObj = [PSCustomObject]@{
             CSPROJ          = $csproj.FullName
-            ApplicationName = $projectName
+            ApplicationName = $projName
             Nugets          = @()
         }
-        
+
         # Find all PackageReference nodes regardless of their position in the XML.
         $packageReferences = $doc.SelectNodes("//PackageReference")
-        
+
         foreach ($packageReference in $packageReferences) {
             $packageName = $packageReference.Include
             $version     = $packageReference.Version
@@ -36,12 +53,17 @@ foreach ($csproj in $csprojFiles) {
                     PackageName = $packageName
                     Version     = $version
                 }
+
                 $ApplicationObj.Nugets += $NugetObj
+                
             }
         }
-        
+
         # Add the application object to the list.
-        $Applications += $ApplicationObj
+        if ($ApplicationObj.Nugets.Count -gt 0) 
+        {
+            $Applications += $ApplicationObj
+        }
     }
     catch {
         Write-Output "Error processing $($csproj.FullName): $($_.Exception.Message)"
