@@ -29,7 +29,7 @@ foreach ($csproj in $csprojFiles) {
         $projName = [System.IO.Path]::GetFileNameWithoutExtension($csproj.FullName)
 
         # If a project name filter is provided, skip if it doesn't match.
-        if ($FilterProjectName -and $projName -notlike "*$FilterProjectName*") {
+        if ($FilterProjectName -and $csproj.FullName -notlike "*$FilterProjectName*") {
             continue
         }
 
