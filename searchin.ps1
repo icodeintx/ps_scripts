@@ -20,7 +20,13 @@ if($SearchString -eq "--help")
     Return
 }
 
-#Get-ChildItem -Path .\ -Filter $FileFilter -Recurse -File | Select-String $SearchString -List | Select-Object Path, LineNumber, Line
+
+#Get-Childitem -Path .\ -Filter $FileFilter -Recurse -File | Select-String -Pattern $SearchString | Select FileName,LineNumber,Line,Path
+Get-Childitem -Path .\ -Filter $FileFilter -Recurse -File |
+    Select-String -Pattern $SearchString |
+    Select-Object Path, LineNumber, Line |
+    ConvertTo-Csv -NoTypeInformation
 
 
-Get-Childitem -Path .\ -Filter $FileFilter -Recurse -File | Select-String -Pattern $SearchString | Select Path,LineNumber,Line
+
+
