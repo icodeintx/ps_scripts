@@ -5,7 +5,7 @@ param(
 
 if ($PSBoundParameters.Count -eq 0) {
     Write-Host "Usage:"
-    Write-Host "  .\YourScript.ps1 [-RootDirectory <path>] [-FilterProjectName <name>]"
+    Write-Host "  .\GetNugetVersions.ps1 [-RootDirectory <path>] [-FilterProjectName <name>]"
     Write-Host ""
     Write-Host "Description:"
     Write-Host "  Scans all .csproj files under the specified directory and lists NuGet packages."
